@@ -20,15 +20,19 @@ No Insomnia, importe o arquivo RequisicoesExemplo_Insomnia.json
 São as instruções básicas de solicitação de dados dos Endpoint:
 
 Cliente
+
     Listar todos
 
 Produto 
+
     Listar todos
     
 Item 
+
     Item todos
     
 Pedido 
+
     Listar todos
     Listar por ID
     Incluir
