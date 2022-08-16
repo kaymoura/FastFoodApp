@@ -3,7 +3,7 @@ Projeto Integrado FastFood - Back-end em Java.
 
 SENAI - Desenvolvimento de Sistemas
 
-3° Semestre
+2° Semestre
 
 API Básica para início e implementação de melhorias.
 
