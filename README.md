@@ -36,3 +36,13 @@ Pedido
     Listar todos
     Listar por ID
     Incluir
+
+
+ ## 🚀 Tecnologias
+ 
+ - Java;
+ - Mysql;
+ - Springboot;
+ - Insomnia;
+
+ <br></br>
