@@ -44,4 +44,8 @@ public class PedidoService {
         
         return pedidoRepository.save(pedido);
     }
+    
+    public void excluir(Long pedidoId) {
+        pedidoRepository.deleteById(pedidoId);
+    }
 }

@@ -32,12 +32,14 @@ public class ClienteController {
     @Autowired
     private ClienteRepository clienteRepository;
     
+    // Lista todos clientes
     @GetMapping
     public List<Cliente> listar(){
     
         return clienteRepository.findAll();
     }
     
+    // Lista todos clientes por id
     @GetMapping("/{clienteid}")
     public  ResponseEntity<Cliente> listaId(@PathVariable Long clienteid){
         Optional <Cliente> cliente = clienteRepository.findById(clienteid);
@@ -49,6 +51,7 @@ public class ClienteController {
         }
     }
     
+    // Adiciona cliente
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Cliente criar(@Valid @RequestBody Cliente cliente){
